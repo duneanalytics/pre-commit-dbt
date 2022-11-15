@@ -30,8 +30,8 @@ def check_refs_sources(
         for src_ref in src_refs:
             src_ref_value = src_ref[1].replace("'", "").replace('"', "").strip()
             if src_ref[0] == "ref":
-                is_jinjs_var = re.search(r"\{\%.*" + src_ref_value + ".*\%\}", full_script)
-                if not is_jinjs_var:
+                is_jinja_var = re.search(r"\{\%.*" + src_ref_value + ".*\%\}", full_script)
+                if not is_jinja_var:
                     models.add(src_ref_value)
             if src_ref[0] == "source":
                 src_split = src_ref_value.split(",")
