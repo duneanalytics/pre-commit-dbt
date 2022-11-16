@@ -19,7 +19,7 @@
 
 List of [pre-commit](https://pre-commit.com) hooks to ensure the quality of your [dbt](https://www.getdbt.com) projects.
 
-## Goal
+## Goal (test out access)
 
 *Quick ensure the quality of your `dbt` projects*.
 
