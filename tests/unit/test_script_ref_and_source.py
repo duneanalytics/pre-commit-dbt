@@ -94,6 +94,17 @@ TESTS_INTEGRATION = (
         1,
         False,
     ),
+    (
+        """
+    WITH aa as
+    (SELECT *
+    FROM  {{ ref("ref1") }} bb)
+    SELECT *
+    from aa
+    """,
+        1,
+        True,
+    ),
 )
 
 
