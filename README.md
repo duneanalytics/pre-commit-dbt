@@ -1,6 +1,7 @@
-## IMPORTANT NOTE - DEPRECATION WARNING
+## IMPORTANT NOTE - REPOSITORY MOVED
 
-This repository is deprecated and no longer maintaned. We invite you to start using the forked version maintained by [Datacoves](https://datacoves.com) on [datacoves/pre-commit-dbt](https://github.com/datacoves/pre-commit-dbt).
+This is a forked version of offbi/pre-commit-dbt and should not be used anymore. The new version was moved to [dbt-checkpoint/dbt-checkpoint](https://github.com/dbt-checkpoint/dbt-checkpoint).
+Please update any reference to the new github repo url as this repo will be removed soon.
 
 ### Acknowledgements
 
